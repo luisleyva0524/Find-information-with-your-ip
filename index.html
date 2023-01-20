@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+    <title>What is my location</title>
+</head>
+
+<body>
+    <main class="container">
+        <h1>Encuentra informacion de tu ip</h1>
+        <p>Esta aplicación te proporciona información de tu ip, fue construida con ayuda de Raid API, saber mas de la
+            Api utilizada en esta aplicacion click
+            <strong>
+                <a href="https://ipwhois.io/" target="_blank" rel="noopener noreferrer"> aqui</a>
+            </strong>
+        </p>
+        <form id="form">
+            <label>
+                IP del usuario
+                <input id="input" type="text" placeholder="Introduce aqui tu IP" required>
+                <small>
+                    Por ejemplo: 107.23.255.131
+                </small>
+            </label>
+
+            <button type="submit" id="submit">
+                Buscar informacion de esta ip
+            </button>
+
+        </form>
+
+        <div>
+            <pre id="results">
+
+            </pre>
+        </div>
+    </main>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
