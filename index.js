@@ -17,7 +17,7 @@ const isValid = (reg) => {
 const options = {
     method: 'GET',
     headers: {
-        'X-RapidAPI-Key': '3668d6e643msh469ed4eab73488ap111602jsn6c142f677ba1',
+        'X-RapidAPI-Key': '',
         'X-RapidAPI-Host': 'ip-geolocation-ipwhois-io.p.rapidapi.com'
     }
 };
